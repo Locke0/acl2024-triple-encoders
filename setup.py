@@ -18,13 +18,14 @@ setup(
     packages=find_packages(),
     python_requires=">=3.8.0",
     install_requires=[
-        'datasets==2.17.0',
-        'transformers==4.34.1',
-        'sentence-transformers==2.2.2',
+        'datasets>=2.17.0,<2.18.0',
+        'transformers>=4.35.0,<4.36.0',
+        'sentence-transformers>=2.2.2',
         'torch==2.0.1',
-        'numpy==1.21.5',
-        'pandas==1.4.4',
-        'tqdm==4.64.1'
+        'numpy==1.22.4',
+        'pandas==2.2.2',
+        'tqdm==4.64.1',
+        'huggingface_hub>=0.16.4'
     ],
     classifiers=[
         "Development Status :: 1 - Planning",
